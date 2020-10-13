@@ -14,6 +14,7 @@ using VideoOnDemand.Data.Data.Entities;
 using VideoOnDemand.Data.Data;
 using VideoOnDemand.UI.Repositories;
 using VideoOnDemand.UI.Models.DTOModels;
+using VideoOnDemand.Data.Services;
 
 namespace VideoOnDemand.UI
 {
@@ -41,7 +42,10 @@ namespace VideoOnDemand.UI
 
             services.AddMvc();
 
-            services.AddSingleton<IReadRepository, MockReadRepository>();
+            services.AddTransient<IDbReadService, DbReadService>();
+
+            //services.AddSingleton<IReadRepository, MockReadRepository>();
+            services.AddScoped<IReadRepository, SqlReadRepository>();
 
             var config = new AutoMapper.MapperConfiguration(cfg =>
             {

@@ -25,3 +25,4 @@ D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\Vid
 D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Data\obj\Debug\netcoreapp2.0\VideoOnDemand.Data.dll
 D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Data\obj\Debug\netcoreapp2.0\VideoOnDemand.Data.pdb
 D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Data\obj\Debug\netcoreapp2.0\VideoOnDemand.Data.genruntimeconfig.cache
+D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Data\obj\Debug\netcoreapp2.0\VideoOnDemand.Data.csprojAssemblyReference.cache
