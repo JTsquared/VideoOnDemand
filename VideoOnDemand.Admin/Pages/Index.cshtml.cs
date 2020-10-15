@@ -72,7 +72,7 @@ namespace VideoOnDemand.Admin.Pages
                     BackgroundColor = "#ffcc00",
                     Count = count.downloads,
                     Description = "Downloads",
-                    Icon = "file",
+                    Icon = "download",
                     Url = "./Downloads/Index"
                 },
                 userCourses: new CardViewModel
