@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using VideoOnDemand.Data;
 using VideoOnDemand.Data.Data;
 using VideoOnDemand.Data.Data.Entities;
+using VideoOnDemand.Data.Services;
 
 namespace VideoOnDemand.Admin
 {
@@ -35,6 +36,8 @@ namespace VideoOnDemand.Admin
                 .AddDefaultTokenProviders();
 
             services.AddMvc();
+
+            services.AddTransient<IDbReadService, DbReadService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

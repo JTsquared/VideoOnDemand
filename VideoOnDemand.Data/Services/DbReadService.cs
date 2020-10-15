@@ -94,5 +94,15 @@ namespace VideoOnDemand.Data.Services
             return new SelectList(items, valueField, textField);
         }
 
+        public (int courses, int downloads, int instructors, int modules, int videos, int users, int userCourses) Count()
+        {
+            return (courses: _db.Courses.Count(), 
+                downloads: _db.Downloads.Count(), 
+                instructors: _db.Instructors.Count(), 
+                modules: _db.Modules.Count(), 
+                videos: _db.Videos.Count(), 
+                users: _db.Users.Count(), 
+                userCourses: _db.UserCourses.Count());
+        }
     }
 }
