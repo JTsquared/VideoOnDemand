@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoOnDemand.UI", "VideoOn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoOnDemand.Data", "VideoOnDemand.Data\VideoOnDemand.Data.csproj", "{ED63D47E-8196-4FBB-87C0-A4BC4530AC52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoOnDemand.Admin", "VideoOnDemand.Admin\VideoOnDemand.Admin.csproj", "{C425552F-A057-4BAE-921B-6F08BAFF0102}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoOnDemand.Admin", "VideoOnDemand.Admin\VideoOnDemand.Admin.csproj", "{C425552F-A057-4BAE-921B-6F08BAFF0102}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
