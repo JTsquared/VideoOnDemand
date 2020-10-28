@@ -1,3 +1,8 @@
+D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\obj\Debug\netcoreapp2.0\VideoOnDemand.Admin.csprojAssemblyReference.cache
+D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\obj\Debug\netcoreapp2.0\VideoOnDemand.Admin.AssemblyInfoInputs.cache
+D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\obj\Debug\netcoreapp2.0\VideoOnDemand.Admin.AssemblyInfo.cs
+D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\obj\Debug\netcoreapp2.0\VideoOnDemand.Admin.csproj.CoreCompileInputs.cache
+D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
 D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\bin\Debug\netcoreapp2.0\appsettings.json
 D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
 D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\bin\Debug\netcoreapp2.0\appsettings.Development.json
@@ -11,11 +16,6 @@ D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\Vid
 D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\bin\Debug\netcoreapp2.0\VideoOnDemand.Admin.pdb
 D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\bin\Debug\netcoreapp2.0\VideoOnDemand.Data.dll
 D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\bin\Debug\netcoreapp2.0\VideoOnDemand.Data.pdb
-D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\obj\Debug\netcoreapp2.0\VideoOnDemand.Admin.csprojAssemblyReference.cache
-D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\obj\Debug\netcoreapp2.0\VideoOnDemand.Admin.AssemblyInfoInputs.cache
-D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\obj\Debug\netcoreapp2.0\VideoOnDemand.Admin.AssemblyInfo.cs
-D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\obj\Debug\netcoreapp2.0\VideoOnDemand.Admin.csproj.CoreCompileInputs.cache
-D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
 D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\obj\Debug\netcoreapp2.0\VideoOnDemand.Admin.csproj.CopyComplete
 D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\obj\Debug\netcoreapp2.0\VideoOnDemand.Admin.dll
 D:\Users\Jon\Projects\Visual Studio Projects\VideoOnDemand\VideoOnDemandRepo\VideoOnDemand.Admin\obj\Debug\netcoreapp2.0\VideoOnDemand.Admin.pdb
