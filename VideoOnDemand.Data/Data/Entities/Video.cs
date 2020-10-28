@@ -21,6 +21,8 @@ namespace VideoOnDemand.Data.Data.Entities
         public int Duration { get; set; }
         public int Position { get; set; }
         public int ModuleId { get; set; }
+        public Module Module { get; set; }
         public int CourseId { get; set; }
+        public Course Course { get; set; }
     }
 }
