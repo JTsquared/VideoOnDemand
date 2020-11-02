@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using VideoOnDemand.Data.Data.Entities;
 using VideoOnDemand.Data.Services;
 
-namespace VideoOnDemand.Admin.Pages.Videos
+namespace VideoOnDemand.Admin.Pages.Downloads
 {
     [Authorize(Roles = "Admin")]
     public class EditModel : PageModel
@@ -13,7 +13,7 @@ namespace VideoOnDemand.Admin.Pages.Videos
         private IDbReadService _dbReadService;
         private IDbWriteService _dbWriteService;
 
-        [BindProperty] public Video Input { get; set; } = new Video();
+        [BindProperty] public Download Input { get; set; } = new Download();
         [TempData] public string StatusMessage { get; set; }
 
         public EditModel(IDbReadService dbReadService, IDbWriteService dbWriteService)
@@ -24,7 +24,7 @@ namespace VideoOnDemand.Admin.Pages.Videos
         public void OnGet(int id)
         {
             ViewData["Modules"] = _dbReadService.GetSelectList<Module>("Id", "Title");
-            Input = _dbReadService.Get<Video>(id, true);
+            Input = _dbReadService.Get<Download>(id, true);
         }
 
         public async Task<IActionResult> OnPostAsync()
@@ -37,7 +37,7 @@ namespace VideoOnDemand.Admin.Pages.Videos
 
                 if (success)
                 {
-                    StatusMessage = $"Updated Video: {Input.Title}";
+                    StatusMessage = $"Updated Download: {Input.Title}";
                     return RedirectToPage("Index");
                 }
             }
