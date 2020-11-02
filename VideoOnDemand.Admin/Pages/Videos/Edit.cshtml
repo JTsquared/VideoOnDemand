@@ -3,7 +3,7 @@
 @using VideoOnDemand.Data.Data.Entities
 @inject SignInManager<User> SignInManager 
 
-@model Pooper
+@model EditModel
 @{ ViewData["Title"] = "Edit Video"; }
 
 @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))

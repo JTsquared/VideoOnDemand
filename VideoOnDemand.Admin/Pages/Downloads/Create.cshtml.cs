@@ -1,30 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Threading.Tasks;
+using Microsoft.WindowsAzure.Storage;
+using VideoOnDemand.Admin.Models;
+using VideoOnDemand.Admin.Services;
 using VideoOnDemand.Data.Data.Entities;
 using VideoOnDemand.Data.Services;
 
-namespace VideoOnDemand.Admin.Pages.Videos
+namespace VideoOnDemand.Admin.Pages.Downloads
 {
     [Authorize(Roles = "Admin")]
-    public class EditModel : PageModel
+    public class CreateModel : PageModel
     {
         private IDbReadService _dbReadService;
         private IDbWriteService _dbWriteService;
 
-        [BindProperty] public Video Input { get; set; } = new Video();
-        [TempData] public string StatusMessage { get; set; }
+        [BindProperty]
+        public Download Input { get; set; } = new Download();
+        [TempData]
+        public string StatusMessage { get; set; }
 
-        public EditModel(IDbReadService dbReadService, IDbWriteService dbWriteService)
+        public CreateModel(IDbReadService dbReadService, IDbWriteService dbWriteService)
         {
             _dbReadService = dbReadService;
             _dbWriteService = dbWriteService;
         }
-        public void OnGet(int id)
+        public void OnGet()
         {
             ViewData["Modules"] = _dbReadService.GetSelectList<Module>("Id", "Title");
-            Input = _dbReadService.Get<Video>(id, true);
         }
 
         public async Task<IActionResult> OnPostAsync()
@@ -32,12 +39,11 @@ namespace VideoOnDemand.Admin.Pages.Videos
             if (ModelState.IsValid)
             {
                 Input.CourseId = _dbReadService.Get<Module>(Input.ModuleId).CourseId;
-                Input.Course = null;
-                var success = await _dbWriteService.Update(Input);
+                var success = await _dbWriteService.Add(Input);
 
                 if (success)
                 {
-                    StatusMessage = $"Updated Video: {Input.Title}";
+                    StatusMessage = $"Created a new Download: {Input.Title}";
                     return RedirectToPage("Index");
                 }
             }
